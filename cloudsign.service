@@ -1,0 +1,11 @@
+[Unit]
+Description=Cloud sign control service
+After=multi-user.target
+
+[Service]
+Type=idle
+KillSignal=SIGINT
+ExecStart=/usr/bin/python3 /home/pi/Documents/cloud-sign/main.py
+
+[Install]
+WantedBy=multi-user.target
