@@ -1,4 +1,4 @@
-Turns GPIO17 on if internet works, pulses if internet doesn't
+Designed to power a lamp from a raspberry pi. Turns GPIO17 on if internet works, pulses if internet doesn't
 
 install: link or copy cloudsign.service to `/lib/systemd/system`
 
